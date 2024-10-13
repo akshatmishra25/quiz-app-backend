@@ -1,11 +1,11 @@
-## Online Quiz Application
+# Online Quiz Application
 This is a RESTful API for a basic online quiz application built using Node.js, Express.js, and MongoDB. It supports user authentication, quiz management, and allows users to take quizzes and view their results.
 
 ## Features
-# User Registration & Login
-# Create Quizzes with Multiple Choice Questions (MCQ)
-# Take quizzes and submit answers
-# View quiz results and scores
+### User Registration & Login
+### Create Quizzes with Multiple Choice Questions (MCQ)
+### Take quizzes and submit answers
+### View quiz results and scores
 
 ## Prerequisites
 Before you begin, ensure you have the following installed:
@@ -36,7 +36,7 @@ To start the application, use the following command:
 This will start the server on the port specified in your .env file.
 
 ## API Endpoints
-# Authentication
+### Authentication
 Register User
 
 POST api/auth/register
@@ -63,7 +63,7 @@ Response:
   "token": "your_jwt_token"
 } ```
 
-# Quiz Management
+### Quiz Management
 Create Quiz
 
 POST api/quiz
