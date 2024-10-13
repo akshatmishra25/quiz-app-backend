@@ -7,6 +7,8 @@ This is a RESTful API for a basic online quiz application built using Node.js, E
 ### Take quizzes and submit answers
 ### View quiz results and scores
 
+## Live Deployed Link - https://quiz-app-backend-o7ei.onrender.com
+
 ## Prerequisites
 Before you begin, ensure you have the following installed:
 
