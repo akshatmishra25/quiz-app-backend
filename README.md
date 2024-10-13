@@ -17,7 +17,7 @@ MongoDB (local or cloud-based, e.g., MongoDB Atlas)
 Clone the repository:
 
 
-``` git clone https://github.com/yourusername/quiz-app.git ```
+``` git clone https://github.com/akshatmishra25/quiz-app-backend.git ```
 
 Navigate to the project directory:
 
