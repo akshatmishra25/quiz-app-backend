@@ -42,26 +42,26 @@ Register User
 POST api/auth/register
 Request Body:
 
-``` {
+`` {
   "name": "John Doe",
   "email": "john@example.com",
   "password": "password123"
-} ``
+} 
 
 Login User
 
 POST api/auth/login
 Request Body:
 
-``` {
+`` {
   "email": "john@example.com",
   "password": "password123"
-} ```
+} 
 Response:
 
-``` {
+`` {
   "token": "your_jwt_token"
-} ```
+} ``
 
 ### Quiz Management
 Create Quiz
@@ -69,7 +69,7 @@ Create Quiz
 POST api/quiz
 Request Body:
 
-{
+`` {
   "title": "JavaScript Basics Quiz",
   "questions": [
     {
@@ -83,21 +83,22 @@ Request Body:
       "correctAnswer": 1
     }
   ]
-}
-Get All Quizzes
+} ``
+
+#### Get All Quizzes
 
 GET api/quizzes
 
-Get Quiz Details
+#### Get Quiz Details
 
 GET api/quiz/:id
 
-Quiz Submission
+#### Quiz Submission
 Submit Quiz Answers
 POST api/quiz/submit
 Request Body:
 
-{
+`` {
   "quizId": "quiz_id",
   "answers": [2, 1, 3]
-}
+} ``
